@@ -26,7 +26,10 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" preservesSuperviewLayoutMargins="YES" image="devslopesProfileLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Vk8-wl-hc9">
-                                <rect key="frame" x="20" y="110" width="110" height="110"/>
+                                <rect key="frame" x="20" y="110" width="100" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="a55-9S-zal"/>
+                                </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="X57-Fb-Py7">
                                 <rect key="frame" x="71.5" y="244" width="232" height="57"/>
@@ -84,7 +87,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devslopes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2J-1K-CJY">
-                                <rect key="frame" x="193" y="152" width="91.5" height="26"/>
+                                <rect key="frame" x="136" y="152" width="91.5" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="LXf-en-svB"/>
                                 </constraints>
@@ -99,19 +102,17 @@
                             <constraint firstAttribute="trailing" secondItem="rGs-bv-1Hw" secondAttribute="trailing" id="3Tg-PJ-NIx"/>
                             <constraint firstItem="Vk8-wl-hc9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="8NZ-HM-9yH"/>
                             <constraint firstItem="X57-Fb-Py7" firstAttribute="top" secondItem="Vk8-wl-hc9" secondAttribute="bottom" constant="24" id="Beg-gV-9tk"/>
+                            <constraint firstItem="a2J-1K-CJY" firstAttribute="leading" secondItem="Vk8-wl-hc9" secondAttribute="trailing" constant="16" id="E9U-gX-tXX"/>
                             <constraint firstItem="X57-Fb-Py7" firstAttribute="top" secondItem="a2J-1K-CJY" secondAttribute="bottom" constant="66" id="ML4-XC-ctL"/>
-                            <constraint firstItem="Vk8-wl-hc9" firstAttribute="centerY" secondItem="a2J-1K-CJY" secondAttribute="centerY" id="SaE-0Z-IbB"/>
                             <constraint firstItem="djK-tj-qDr" firstAttribute="top" secondItem="X57-Fb-Py7" secondAttribute="bottom" constant="24" id="WyX-X0-c1J"/>
                             <constraint firstItem="djK-tj-qDr" firstAttribute="centerX" secondItem="X57-Fb-Py7" secondAttribute="centerX" id="Yd2-9h-rNT"/>
                             <constraint firstItem="gWX-Oq-vWw" firstAttribute="top" secondItem="djK-tj-qDr" secondAttribute="bottom" constant="8" symbolic="YES" id="ahV-jG-hWf"/>
                             <constraint firstItem="rGs-bv-1Hw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="b6I-en-2dR"/>
                             <constraint firstAttribute="bottomMargin" secondItem="gWX-Oq-vWw" secondAttribute="bottom" constant="54" id="dFR-kP-xkX"/>
                             <constraint firstItem="gWX-Oq-vWw" firstAttribute="trailing" secondItem="djK-tj-qDr" secondAttribute="trailing" id="gYX-Fe-qdS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="a2J-1K-CJY" secondAttribute="trailing" constant="74" id="hRa-7x-Rda"/>
                             <constraint firstItem="gWX-Oq-vWw" firstAttribute="leading" secondItem="djK-tj-qDr" secondAttribute="leading" id="lDK-ib-r8l"/>
                             <constraint firstItem="X57-Fb-Py7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lyz-fG-QA9"/>
                             <constraint firstItem="rGs-bv-1Hw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qSi-7r-hbA"/>
-                            <constraint firstItem="a2J-1K-CJY" firstAttribute="leading" secondItem="Vk8-wl-hc9" secondAttribute="trailing" constant="63" id="rcm-6h-nFR"/>
                             <constraint firstItem="a2J-1K-CJY" firstAttribute="top" secondItem="rGs-bv-1Hw" secondAttribute="bottom" constant="2" id="vWU-hE-QzX"/>
                             <constraint firstItem="a2J-1K-CJY" firstAttribute="centerY" secondItem="Vk8-wl-hc9" secondAttribute="centerY" id="wCH-0h-2Q0"/>
                         </constraints>
